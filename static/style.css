@@ -1,7 +1,11 @@
 #main{
 	width: 308px;
     height: 308px;
+<<<<<<< HEAD
    /* background-color: white;*/
+=======
+    background-color: white;
+>>>>>>> 27d50c759f1355ee0b89e2791edb5ed490c2619b
     display: flex;
     flex-wrap: wrap;
     margin: auto;
@@ -40,6 +44,7 @@ h1{
 	margin: auto;
     color: red;
 }
+<<<<<<< HEAD
 #high-score{
     margin: auto;
     color: red;
@@ -147,4 +152,8 @@ h1{
     line-height: 70px;
     text-align: center;
     font-family: sans-serif;
+=======
+#extra p{
+	margin-bottom: 2px;
+>>>>>>> 27d50c759f1355ee0b89e2791edb5ed490c2619b
 }
