@@ -1,0 +1,150 @@
+#main{
+	width: 308px;
+    height: 308px;
+   /* background-color: white;*/
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 40px;
+}
+.row{
+	display: flex;
+    flex-direction: row;
+}
+.row div{
+	border: 1px solid grey;
+    width: 75px;
+    height: 75px;
+}
+h1{
+	font-size: 50px;
+    font-family: sans-serif;
+    width: 113px;
+    margin: auto;
+}
+#extra{
+	display: flex;
+    width: 200px;
+    justify-content: space-between;
+    margin: auto;
+}
+#extra div{
+	display: flex;
+    flex-direction: column;
+    font-size: 17px;
+}
+#button{
+	margin-top: 15px;
+}
+#score{
+	margin: auto;
+    color: red;
+}
+#high-score{
+    margin: auto;
+    color: red;
+}
+#extra p{
+	margin-bottom: 2px;
+}
+.cell0{
+    background-color: #c6bcbb;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 70px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.cell2{
+    background-color: #ebe0c3;
+    /* background-image: url(static/img/2.png); */
+    color: grey;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 70px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.cell4{
+    background-color: #ffe4cd;
+    color: grey;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 70px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.cell8{
+    background-color: #f5a56e;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 70px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.cell16{
+    background-color: #f78855;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 70px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.cell32{
+    background-color: #f76a55;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 70px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.cell64{
+    background-color: #ff3e21;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 70px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.cell128{
+    background-color: #f5e967;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 70px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.cell512{
+        background-color: #f5e63a;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 70px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.cell1024{
+    background-color: #fe83a6;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 70px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.cell2048{
+    background-color: #ffeb10;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 70px;
+    text-align: center;
+    font-family: sans-serif;
+}
